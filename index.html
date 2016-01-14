@@ -3,66 +3,18 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Sticky footer &middot; Twitter Bootstrap</title>
+  <title>Milen Georgiev</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="author" content="Milen Georgiev">
 
   <!-- CSS -->
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <style type="text/css">
-    body {
-      padding-top: 60px;
-      box-sizing: border-box;
-    }
-    /* Sticky footer styles
-      -------------------------------------------------- */
-    
-    html,
-    body {
-      height: 100%;
-      /* The html and body elements cannot have any padding or margin. */
-    }
-    /* Wrapper for page content to push down footer */
-    
-    #wrap {
-      min-height: 100%;
-      height: auto !important;
-      height: 100%;
-      /* Negative indent footer by it's height */
-      margin: 0 auto -60px;
-    }
-    /* Set the fixed height of the footer here */
-    
-    #push,
-    #footer {
-      height: 60px;
-    }
-    
-    #footer {
-      background-color: #f5f5f5;
-      line-height: 60px;
-      oveflow: hidden;
-    }
-    #footer p {
-      margin: 0;
-    }
-    /* Lastly, apply responsive CSS fixes as necessary */
-    
-    @media (max-width: 767px) {
-      #footer {
-        margin-left: -20px;
-        margin-right: -20px;
-        padding-left: 20px;
-        padding-right: 20px;
-      }
-    }
-  </style>
-  <link href="css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet">
 
-  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-  <!--[if lt IE 9]>
-      <script src="../assets/js/html5shiv.js"></script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+        <script src="js/vendor/html5shiv.js"></script>
     <![endif]-->
 
   <!-- Fav and touch icons -->
@@ -79,56 +31,78 @@
   <!-- Part 1: Wrap all page content here -->
   <div id="wrap">
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="#">milen.github.io</a>
-          <div class="nav-collapse collapse pull-right">
-            <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-static-top hidden-xs text-center">
+            <h1><a class="" href="#">milen.&nbsp;&nbsp;<br>github.io</a></h1>
+        </nav>
+        
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand visible-xs-inline" href="#">milen.github.io</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav pull-right">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Repos <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Hasaki</a></li>
+                    <li><a href="#">Imaginatory</a></li>
+                    <li><a href="#">Evaluation</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </div>
-          <!--/.nav-collapse -->
-        </div>
+        </nav>
+
+      </div>
+    </div>
+    
+    <div class="jumbotron text-center">
+      <div class="container">
+        <h1>Hello, world!</h1>
+        <p>Thank you for stoppin' by. This here is a display for some of my public code samples and my "feel good" projects.</p>
+        <p>For more structure you can view the list of all my repos.</p>
+        <p><a href="https://github.com/milen" class="btn btn-primary btn-lg" role="button">Go to repo list &raquo;</a></p>
       </div>
     </div>
 
     <!-- Begin page content -->
-    <div class="container">
-
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">
-        <h1>Hello, world!</h1>
-        <p>Thank you for stoppin' by. This here is a display for some of my public code samples and my "feel good" projects.</p>
-        <p>For more structure you can view the list of all my repos.</p>
-        <p><a href="https://github.com/milen" class="btn btn-primary btn-large">Go to repo list &raquo;</a></p>
-      </div>
-
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="span4">
+    <div class="container marketing">
+        
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+        <div class="col-lg-4 col-sm-6">
+          <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
           <h2>Sandbox</h2>
-          <p>This here is an everchanging dark hole. Please, do not be alarmed of what you find in the depths of it.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div>
-        <div class="span4">
+          <p>This here is an everchanging dark hole.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 col-sm-6">
+          <span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>
           <h2>Spinners</h2>
           <p>Just a study on css animations ...</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div>
-        <div class="span4">
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 col-sm-6">
+          <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
           <h2>Resume</h2>
           <p>An interactive presentation of my past employment.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div>
-      </div>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
 
     </div>
 
@@ -147,7 +121,7 @@
     ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-  <script src="js/bootstrap.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <script src="js/app.js"></script>
 
 </body>
