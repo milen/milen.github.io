@@ -73,14 +73,13 @@ body {
 -------------------------------------------------- */
 
 .marketing .glyphicon {
-  font-size: 8rem;
+  font-size: 4rem;
 }
 
 /* Center align the text within the three columns below the carousel */
 
-.marketing .col-lg-4 {
+.marketing div[class^="col-"] {
   margin-bottom: 20px;
-  text-align: center;
 }
 .marketing h2 {
   font-weight: normal;
