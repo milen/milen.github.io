@@ -1,3 +1,3 @@
 # Reset
 
-OK, this will take some time to setup. Please wait ...
+Let's try this.
