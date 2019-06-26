@@ -1,3 +1,3 @@
-# Next.js for gh-pages
+# Reset
 
-Set-up.
+Aparently, github pages has another setup for users with direct subdomain or something ...
