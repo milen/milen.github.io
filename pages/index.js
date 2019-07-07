@@ -1,4 +1,6 @@
-import Link from 'next/link'
+import Link from 'next/link';
+import "../styles/styles.scss";
+
 export default () => (
   <>
     <div>Hello World.</div>

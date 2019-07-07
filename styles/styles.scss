@@ -1,0 +1,12 @@
+@import '_vars';
+
+body {
+    background-color: $bg-color;
+    font-family: monospace;
+    font-size: 0.85em;
+    color: $text-color;
+
+    a {
+        color: $link-color;
+    }
+}
