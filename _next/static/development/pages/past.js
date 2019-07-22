@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\past.js"],{
 
 /***/ "./components/Header.js":
 /*!******************************!*\
@@ -5521,21 +5521,21 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CUsers%5Cvx%5CDocuments%5CGitHub%5Cmilen.github.io%5Cpages%5Cindex.js!./":
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CUsers%5Cvx%5CDocuments%5CGitHub%5Cmilen.github.io%5Cpages%5Cindex.js ***!
-  \****************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpast&absolutePagePath=D%3A%5CUsers%5Cvx%5CDocuments%5CGitHub%5Cmilen.github.io%5Cpages%5Cpast.js!./":
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpast&absolutePagePath=D%3A%5CUsers%5Cvx%5CDocuments%5CGitHub%5Cmilen.github.io%5Cpages%5Cpast.js ***!
+  \*******************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var page = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/past", function() {
+      var page = __webpack_require__(/*! ./pages/past.js */ "./pages/past.js")
       if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/past.js */ "./pages/past.js", function() {
+          if(!next.router.components["/past"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/past.js */ "./pages/past.js")
+          next.router.update("/past", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -9885,10 +9885,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/past.js":
+/*!***********************!*\
+  !*** ./pages/past.js ***!
+  \***********************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9897,7 +9897,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _layouts_Page_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../layouts/Page.js */ "./layouts/Page.js");
-var _jsxFileName = "D:\\Users\\vx\\Documents\\GitHub\\milen.github.io\\pages\\index.js";
+var _jsxFileName = "D:\\Users\\vx\\Documents\\GitHub\\milen.github.io\\pages\\past.js";
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
@@ -9913,25 +9913,19 @@ var _jsxFileName = "D:\\Users\\vx\\Documents\\GitHub\\milen.github.io\\pages\\in
       lineNumber: 5
     },
     __self: this
-  }, "Hello World."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, "My name is Milen and I make web stuff ..."));
+  }, "Past projects."));
 });
 
 /***/ }),
 
-/***/ 0:
-/*!********************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CUsers%5Cvx%5CDocuments%5CGitHub%5Cmilen.github.io%5Cpages%5Cindex.js ***!
-  \********************************************************************************************************************************************/
+/***/ 3:
+/*!***********************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fpast&absolutePagePath=D%3A%5CUsers%5Cvx%5CDocuments%5CGitHub%5Cmilen.github.io%5Cpages%5Cpast.js ***!
+  \***********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CUsers%5Cvx%5CDocuments%5CGitHub%5Cmilen.github.io%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CUsers%5Cvx%5CDocuments%5CGitHub%5Cmilen.github.io%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fpast&absolutePagePath=D%3A%5CUsers%5Cvx%5CDocuments%5CGitHub%5Cmilen.github.io%5Cpages%5Cpast.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpast&absolutePagePath=D%3A%5CUsers%5Cvx%5CDocuments%5CGitHub%5Cmilen.github.io%5Cpages%5Cpast.js!./");
 
 
 /***/ }),
@@ -9947,5 +9941,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=index.js.map
+},[[3,"static/runtime/webpack.js","styles"]]]);
+//# sourceMappingURL=past.js.map
