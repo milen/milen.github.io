@@ -10,3 +10,11 @@ body {
         color: $link-color;
     }
 }
+
+h4 {
+    margin-bottom: 0.5em;
+
+    & + p {
+        margin-top: 0;
+    }
+}

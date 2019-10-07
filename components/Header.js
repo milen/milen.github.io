@@ -15,9 +15,6 @@ const Header = () => (
         <Link href="/past">
             <a style={linkStyle}>Past</a>
         </Link>
-        <Link href="/blog">
-            <a style={linkStyle}>Blog</a>
-        </Link>
     </nav>
 );
 

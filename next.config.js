@@ -9,7 +9,8 @@ module.exports = withSass({
     exportPathMap: function() {
         return {
             "/": { page: "/" },
-            "/about": { page: "/about" },
+            "/past": { page: "/past" },
+            "/blog": { page: "/blog" },
         }
     },
     //assetPrefix: '',
