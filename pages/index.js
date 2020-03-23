@@ -12,11 +12,17 @@ export default () => (
 
             <h3>Some of the technologies I am currently exploring  are as follow:</h3>
 
+            <h4>Angular</h4>
+            <p><b>+++</b>-------</p>
+                
             <h4>React</h4>
-            <p><b>++++</b>------</p>
+            <p><b>+++</b>-------</p>
 
             <h4>TypeScript</h4>
-            <p><b>++</b>--------</p>
+            <p><b>++++</b>------</p>
+
+            <h4>GraphQL</h4>
+            <p><b>+</b>---------</p>
 
             <h4>Node.js</h4>
             <p><b>+</b>---------</p>
