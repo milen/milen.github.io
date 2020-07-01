@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\past.js"],{
 
 /***/ "./components/Header.js":
 /*!******************************!*\
@@ -71,6 +71,41 @@ var Header = function Header() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./components/ProjectsItem.js":
+/*!************************************!*\
+  !*** ./components/ProjectsItem.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var _this = undefined,
+    _jsxFileName = "D:\\Users\\vx\\Documents\\GitHub\\milen.github.io\\components\\ProjectsItem.js";
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+var ProjectsItem = function ProjectsItem() {
+  return __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4,
+      columnNumber: 5
+    }
+  }, "vx");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (ProjectsItem);
 
 /***/ }),
 
@@ -669,21 +704,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CUsers%5Cvx%5CDocuments%5CGitHub%5Cmilen.github.io%5Cpages%5Cindex.js!./":
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CUsers%5Cvx%5CDocuments%5CGitHub%5Cmilen.github.io%5Cpages%5Cindex.js ***!
-  \****************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpast&absolutePagePath=D%3A%5CUsers%5Cvx%5CDocuments%5CGitHub%5Cmilen.github.io%5Cpages%5Cpast.js!./":
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpast&absolutePagePath=D%3A%5CUsers%5Cvx%5CDocuments%5CGitHub%5Cmilen.github.io%5Cpages%5Cpast.js ***!
+  \*******************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var mod = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/past", function() {
+      var mod = __webpack_require__(/*! ./pages/past.js */ "./pages/past.js")
       if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage)
+        module.hot.accept(/*! ./pages/past.js */ "./pages/past.js", function() {
+          if(!next.router.components["/past"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/past.js */ "./pages/past.js")
+          next.router.update("/past", updatedPage)
         })
       }
       return mod
@@ -4406,10 +4441,10 @@ try {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/past.js":
+/*!***********************!*\
+  !*** ./pages/past.js ***!
+  \***********************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -4418,344 +4453,309 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _layouts_Page_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../layouts/Page.js */ "./layouts/Page.js");
+/* harmony import */ var _components_ProjectsItem_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/ProjectsItem.js */ "./components/ProjectsItem.js");
 var _this = undefined,
-    _jsxFileName = "D:\\Users\\vx\\Documents\\GitHub\\milen.github.io\\pages\\index.js";
+    _jsxFileName = "D:\\Users\\vx\\Documents\\GitHub\\milen.github.io\\pages\\past.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return __jsx(_layouts_Page_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4,
+      lineNumber: 5,
       columnNumber: 5
     }
   }, __jsx("h1", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 9
-    }
-  }, "Hello World."), __jsx("h2", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 6,
       columnNumber: 9
     }
-  }, "My name is Milen and I make web stuff ..."), __jsx("p", {
+  }, "Past projects."), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 7,
       columnNumber: 9
     }
-  }, "I am currently on a path of self discovery and a new technological growth."), __jsx("p", {
+  }, "A quick list of some of my more recent and notable projects and the technoilogies I've utilised working on them."), __jsx("section", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9,
       columnNumber: 9
     }
-  }, "My current focus is on building Hybrid Web Apps plus I am kinda getting childish and rediscovering my passion for making games ... :)"), __jsx("article", {
+  }, __jsx("h2", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 13
+    }
+  }, __jsx("a", {
+    href: "https://www.hentaiheroes.com/",
+    target: "_blank",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 17
+    }
+  }, "HentaiHeroes")), __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11,
-      columnNumber: 9
+      columnNumber: 13
     }
-  }, __jsx("h3", {
+  }, __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 17
+    }
+  }, "jQuery"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13,
-      columnNumber: 13
+      columnNumber: 17
     }
-  }, "Some of the technologies I am currently exploring  are as follow:"), __jsx("h4", {
+  }, "Smarty"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 13
+      lineNumber: 14,
+      columnNumber: 17
     }
-  }, "React"), __jsx("p", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 13
-    }
-  }, __jsx("b", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 16
-    }
-  }, "+++++"), "------"), __jsx("h4", {
+  }, "LESS"))), __jsx("section", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18,
-      columnNumber: 13
+      columnNumber: 9
     }
-  }, "Angular"), __jsx("p", {
+  }, __jsx("h2", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19,
       columnNumber: 13
     }
-  }, __jsx("b", {
+  }, __jsx("a", {
+    href: "https://www.openpayd.com/",
+    target: "_blank",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19,
-      columnNumber: 16
+      columnNumber: 17
     }
-  }, "+++"), "-------"), __jsx("h4", {
+  }, "OpenPayd")), __jsx("ul", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 13
+    }
+  }, __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
-      columnNumber: 13
+      columnNumber: 17
     }
-  }, "TypeScript"), __jsx("p", {
+  }, "Angular / RxJS"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
-      columnNumber: 13
+      columnNumber: 17
     }
-  }, __jsx("b", {
+  }, "Typescript"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 16
+      lineNumber: 23,
+      columnNumber: 17
     }
-  }, "+++++"), "------"), __jsx("h4", {
+  }, "SASS"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24,
-      columnNumber: 13
+      columnNumber: 17
     }
-  }, "GraphQL"), __jsx("p", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 13
-    }
-  }, __jsx("b", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 16
-    }
-  }, "++"), "--------"), __jsx("h4", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 13
-    }
-  }, "Node.js"), __jsx("p", {
+  }, "Webpack"))), __jsx("section", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28,
-      columnNumber: 13
+      columnNumber: 9
     }
-  }, __jsx("b", {
+  }, __jsx("h2", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 16
+      lineNumber: 29,
+      columnNumber: 13
     }
-  }, "++"), "---------"), __jsx("h4", {
+  }, "Playtech"), __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30,
       columnNumber: 13
     }
-  }, "Python"), __jsx("p", {
+  }, __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31,
-      columnNumber: 13
+      columnNumber: 17
     }
-  }, "+---------"), __jsx("h4", {
+  }, "Rect / Redux"), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 17
+    }
+  }, "Typescript"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33,
-      columnNumber: 13
+      columnNumber: 17
     }
-  }, "C#"), __jsx("p", {
+  }, "SASS"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34,
-      columnNumber: 13
+      columnNumber: 17
     }
-  }, "----------")), __jsx("article", {
+  }, "Webpack"))), __jsx("section", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38,
       columnNumber: 9
     }
-  }, __jsx("h3", {
+  }, __jsx("h2", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 13
+    }
+  }, __jsx("a", {
+    href: "https://craider.com/",
+    target: "_blank",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 17
+    }
+  }, "Craider")), __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40,
       columnNumber: 13
     }
-  }, "That doesn't mean I am not enjoying and growing in my classical skills:"), __jsx("h4", {
+  }, __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 17
+    }
+  }, "Angular JS"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42,
-      columnNumber: 13
-    }
-  }, "JavaScript"), __jsx("p", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 13
-    }
-  }, __jsx("b", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 16
-    }
-  }, "+++++++"), "---"), __jsx("h4", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 13
-    }
-  }, __jsx("abbr", {
-    title: "HyperText Markup Language",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
       columnNumber: 17
     }
-  }, "HTML")), __jsx("p", {
+  }, "Bootstrap"), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 17
+    }
+  }, "Webpack"))), __jsx("section", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 46,
+      columnNumber: 9
+    }
+  }, __jsx("h2", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
       columnNumber: 13
     }
-  }, __jsx("b", {
+  }, __jsx("a", {
+    href: "https://tanzo.io/",
+    target: "_blank",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 16
+      lineNumber: 47,
+      columnNumber: 17
     }
-  }, "+++++++++"), "-"), __jsx("h4", {
+  }, "Tanzo")), __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 48,
       columnNumber: 13
     }
-  }, __jsx("abbr", {
-    title: "Cascading Style Sheets",
+  }, __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
+      lineNumber: 49,
       columnNumber: 17
     }
-  }, "CSS")), __jsx("p", {
+  }, "Angular JS"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 13
+      lineNumber: 50,
+      columnNumber: 17
     }
-  }, __jsx("b", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 16
-    }
-  }, "++++++++"), "--"), __jsx("h4", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 13
-    }
-  }, __jsx("abbr", {
-    title: "Personal Home Page",
+  }, "Bootstrap"), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 51,
       columnNumber: 17
     }
-  }, "PHP")), __jsx("p", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 13
-    }
-  }, "+---------"), __jsx("aside", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54,
-      columnNumber: 13
-    }
-  }, __jsx("h4", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55,
-      columnNumber: 17
-    }
-  }, "I also enjoy useing a lot of stuff with cryptic names, acronyms and abbreviations, like:"), __jsx("p", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56,
-      columnNumber: 17
-    }
-  }, "LESS, SASS, Stylus, jQuery, Bootstrap, Foundation, Mustache, Smarty, Twig, Blade, WordPress, Drupal, Joomla, Sitefinity, Git, SVN, Webpack, Grunt, Bower and whatnots ..."))));
+  }, "Webpack"))));
 });
 
 /***/ }),
 
-/***/ 3:
-/*!********************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CUsers%5Cvx%5CDocuments%5CGitHub%5Cmilen.github.io%5Cpages%5Cindex.js ***!
-  \********************************************************************************************************************************************/
+/***/ 1:
+/*!***********************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fpast&absolutePagePath=D%3A%5CUsers%5Cvx%5CDocuments%5CGitHub%5Cmilen.github.io%5Cpages%5Cpast.js ***!
+  \***********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CUsers%5Cvx%5CDocuments%5CGitHub%5Cmilen.github.io%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CUsers%5Cvx%5CDocuments%5CGitHub%5Cmilen.github.io%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fpast&absolutePagePath=D%3A%5CUsers%5Cvx%5CDocuments%5CGitHub%5Cmilen.github.io%5Cpages%5Cpast.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpast&absolutePagePath=D%3A%5CUsers%5Cvx%5CDocuments%5CGitHub%5Cmilen.github.io%5Cpages%5Cpast.js!./");
 
 
 /***/ }),
@@ -4771,5 +4771,5 @@ module.exports = dll_817bc00842ec66b68155;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=index.js.map
+},[[1,"static/runtime/webpack.js","styles"]]]);
+//# sourceMappingURL=past.js.map
