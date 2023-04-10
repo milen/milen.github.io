@@ -7,8 +7,5 @@ If you are poking around here, chances are you want to know some of the technica
 
 ---
 
-## Next.js
-Basic install.
-
-## SASS
-No css modules (for now).
+## Vanilla HTML
+As basic as it gets.
