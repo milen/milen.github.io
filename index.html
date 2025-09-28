@@ -13,9 +13,22 @@
     body {
         font-family: 'Source Code Pro', monospace;
         font-size: 0.75rem;
-        background-color: #19161e;
-        color: #fff;
+        background-color: #2e2e2e;
+        color: #d6d6d6;
         padding: 2rem;
+    }
+
+    h1 {
+        color: #A6E22E;
+    }
+    h2 {
+        color: #66D9EF;
+    }
+    h3 {
+        color: #E69F66;
+    }
+    h4 {
+        color: #E6DB74;
     }
 
     article {
@@ -23,10 +36,41 @@
     }
 
     mark {
-        background-color: #fff;
+        background-color: #d6d6d6;
         color: #19161e;
         padding: 3px 5px;
         border-radius: 2px;
+
+        
+    }
+
+    span {
+        color: #75715E;
+    }
+
+    .react b {
+        color: rgb(97, 218, 251);
+    }
+    .vue b {
+        color: rgb(66, 184, 131);
+    }
+    .angular b {
+        color: oklch(0.6902 0.277 332.77);
+    }
+    .ts b {
+        color: rgb(49, 120, 198);
+    }
+    .node b {
+        color: rgb(65, 126, 56);
+    }
+    .js b {
+        color: rgb(252, 220, 0);
+    }
+    .html b {
+        color: rgba(255, 57, 65, 0.9);
+    }
+    .css b {
+        color: rgb(26, 115, 232);
     }
 
     aside {
@@ -34,14 +78,22 @@
     }
 
     footer a {
-        color: #fff;
+        color: #75715E;
         text-decoration: none;
+    }
+
+    footer a:hover {
+        color: #d6d6d6;
     }
 
     footer svg {
         height: 2em;
-        fill: #fff;
+        fill: #75715E;
     }
+    footer a:hover svg {
+        fill: #d6d6d6;
+    }
+
 </style>
 <body>
 
@@ -55,17 +107,15 @@
 
         <h3>Some of the technologies I am currently exploring are as follow:</h3>
 
-        <h4><mark>React</mark> <span><b>+++++++</b>---</span></h4>
+        <h4 class="react"><mark>React</mark> <span><b>+++++++</b>---</span></h4>
 
-        <h4><mark>Vue</mark> <span><b>+++</b>-------</span></h4>
+        <h4 class="vue"><mark>Vue</mark> <span><b>+++</b>-------</span></h4>
 
-        <h4><mark>Angular</mark> <span><b>+</b>---------</span></h4>
+        <h4 class="angular"><mark>Angular</mark> <span><b>+</b>---------</span></h4>
 
-        <h4><mark>TypeScript</mark> <span><b>++++++</b>----</span></h4>
+        <h4 class="ts"><mark>TypeScript</mark> <span><b>++++++</b>----</span></h4>
 
-        <h4><mark>Node.js</mark> <span><b>++</b>--------</span></h4>
-
-        <h4><mark>Python</mark> <span><b>+</b>---------</span></h4>
+        <h4 class="node"><mark>Node.js</mark> <span><b>++</b>--------</span></h4>
 
     </article>
 
@@ -73,11 +123,11 @@
 
         <h3>That doesn't mean I am not enjoying and growing in my classical skills:</h3>
 
-        <h4><mark>JavaScript</mark> <span><b>++++++++</b>--</span></h4>
+        <h4 class="js"><mark>JavaScript</mark> <span><b>++++++++</b>--</span></h4>
 
-        <h4><mark><abbr title="HyperText Markup Language">HTML</abbr></mark> <span><b>+++++++++</b>-</span></h4>
+        <h4 class="html"><mark><abbr title="HyperText Markup Language">HTML</abbr></mark> <span><b>+++++++++</b>-</span></h4>
 
-        <h4><mark><abbr title="Cascading Style Sheets">CSS</abbr></mark> <span><b>+++++++++</b>-</span></h4>
+        <h4 class="css"><mark><abbr title="Cascading Style Sheets">CSS</abbr></mark> <span><b>+++++++++</b>-</span></h4>
 
         <aside>
             <h4>I also enjoy useing a lot of stuff with cryptic names, acronyms and abbreviations, like:</h4>
